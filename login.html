@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css">
+    <script type="text/javascript" src="./script2.js" defer></script>
+    <title>Login</title>
+    </head>
+<body>
+    <header class="header">
+        <a href="index.html"><img id="img" src="./src/img/Daily 2.png" alt="logo dev"></a>
+    </header>
+<main>
+    <div class="container">
+        <div class="form-box">
+            <h1>Login</h1>
+            <h2>Possui uma conta? Entre agora!</h2>
+            <form action="./php/formularioLogin.php" method="post">
+                <label for="email1">E-mail:</label>
+                <input type="email" id="email1" name="email1" placeholder="Digite o email" required>
+                <label for="senha1">Senha:</label>
+                <input type="password" id="senha1" name="senha1" placeholder="Digite a senha" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="form-box">
+            <h1>Cadastro</h1>
+            <h2>Não possui conta? Cadastre-se já!</h2>
+            <form action="./php/index.php" method="post">
+                <label for="nome2">Nome:</label>
+                <input type="text" id="nome2" name="nome" placeholder="Digite seu nome" required>
+                <label for="email2">E-mail:</label>
+                <input type="email" id="email2" name="email2" placeholder="Digite um email" required>
+                <label for="senha2">Senha:</label>
+                <input type="password" id="senha2" name="senha2" placeholder="Digite uma senha" required>
+                <button type="submit" onclick="msg()">Enviar</button>
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+</html>

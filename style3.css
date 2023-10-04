@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    border-top: 3px white solid;
+    background-image: url(./src/img/Frame\ 2\ \(1\).png);
+    background-size: cover;
+    background-position: center top;
+}
+main{
+    font-family: Jacques Francois;
+    border-top: 0.1px solid rgb(95, 97, 185);
+    margin-left: 50px;
+    margin-right: 80px;
+}
+header{
+    display: flex;
+    height: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    gap:5rem ;
+}
+#img {
+    margin: 4rem;
+    cursor: pointer;
+}
+.conteudop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+    font-family: Jacques Francois;
+    font-weight: 400;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+
+.botao{
+    font-family: Jacques Francois;
+    background-color: black;
+    color: white;
+    box-shadow: 5px black;
+    border: none;
+    width: 168px;
+    height: 45px;
+    flex-shrink: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 10px 15px;
+    margin-left: 32rem;
+}
+.botao:hover{
+    background-color: rgb(142, 199, 180);
+}

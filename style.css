@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    border-top: 3px white solid;
+    background-image: url(./src/img/Frame\ 2\ \(1\).png);
+    background-size: cover;
+    background-position: center top;
+}
+main{
+    font-family: Jacques Francois;
+    border-top: 0.1px solid rgb(95, 97, 185);
+    margin-left: 50px;
+    margin-right: 80px;
+}
+header{
+    display: flex;
+    height: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    gap:5rem ;
+}
+
+#img {
+    margin: 4rem;
+    cursor: pointer;
+}
+.conteudo-principal{
+    font-family: Jacques Francois;
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito{
+    font-family: Jacques Francois;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-escrito-titulo{
+    font-family: Jacques Francois;
+    font-weight: 400;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+.conteudo-principal-escrito-titulo:hover{
+    color: white;
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family: Jacques Francois;
+    font-weight: 400;
+    font-size: 24px;
+    color:rgb(0, 0, 0);
+}
+.botao-Login{
+    font-family: Jacques Francois;
+    display: inline-block;
+    background-color: black;
+    border: none;
+    width: 164px;
+    height: 45px;    
+   border-radius: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    
+}
+.botao-Login:hover{
+
+    background-color: rgb(142, 199, 180);
+}
+.botao-Cadastro{
+    font-family: Jacques Francois;
+    display: inline-block;
+    background-color: white;
+    border: none;
+    margin-right: 10rem;
+    font-size: 1.5rem;
+    color: rgb(15, 12, 17);
+    cursor: pointer;
+    width: 168px;
+    height: 45px;
+    border-radius: 1rem;
+    gap: 100rem;
+}
+.botao-Cadastro:hover{
+    background-color: rgb(197, 253, 234);
+}
+.selected{
+    border-radius: 1rem;
+    margin-top:2rem;
+    width: 425.81px;
+    height: 425.81px;    
+}
+
+.botao-Venha{
+    font-family: Jacques Francois;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px black;
+    border: none;
+    width: 168px;
+    height: 45px;
+    flex-shrink: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.botao-Venha:hover{
+    background-color: rgb(194, 222, 247);
+}
+#slider{
+    max-height: 425.81px;
+    position: relative;
+    border-radius: 1rem;
+    margin-top: 5rem;
+    width: 80%;
+    max-width: 425.81px;
+    height: 425.81px;
+}
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#slider img.selected{
+    opacity: 1;
+}
+.carrossel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+#user{
+    font-family: Jacques Francois;
+    text-align: center;
+}
